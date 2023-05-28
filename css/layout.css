@@ -5,27 +5,12 @@
  * @example https://fed-vocational-astro-course.vercel.app/en/html-css/module-3/css-grids
  */
 
-body {
-  margin: 0;
-  width: 100%;
-  min-width: 320px;
-  place-items: flex-start;
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: minmax(62px, auto) 1fr auto;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
-}
+
 
 .l-header {
-  display: flex;
-  flex-direction: column;
   grid-area: header;
   width: 100%;
-  padding: var(--size-fluid-1);
+  
 }
 
 .l-main {

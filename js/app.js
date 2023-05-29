@@ -10,7 +10,7 @@ Constants
 /*
 ============================================
 DOM manipulation
-@example: https://github.com/S3ak/fed-javascript1-api-calls/blob/main/examples/games.html#L89
+@example: https://github.com/S3ak/fed-javascript1-api-calls/blob/main/examples/games.html#L89s
 ============================================
 */
 
@@ -31,6 +31,9 @@ Data fectching
 */
 
 // TODO: Fetch an array of objects from the API
+
+
+fetch("​http://localhost:1337/api/posts")
 
 /*
 ============================================

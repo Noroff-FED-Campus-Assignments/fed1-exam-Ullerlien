@@ -4,46 +4,168 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="_REPLACE_WITH_DESCRIPTION_" />
+    <meta name="description" content="Welcome to The Vegan Vision blog, your go-to destination for all things vegan!" />
     <meta
       name="keywords"
-      content="HTML, CSS, JavaScript, _REPLACE_WITH_KEYWORD_"
+      content="HTML, CSS, JavaScript"
     />
-    <meta name="author" content="_YOUR_NAME_" />
+    <meta name="author" content="Herman_Ullerlien" />
     <link rel="stylesheet" href="/style.css" />
     <!-- TODO: Import Javascript -->
-    <title>_REPLACE_SITE_NAME</title>
+    <script src="/vite.config.js"></script>
+    <title>The Vegan Vision</title>
+
+  
+    <!-- Hotjar Tracking Code for The Vegan Vision -->
+    <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:3510849,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <script
+        src="https://kit.fontawesome.com/477a211843.js"
+          crossorigin="anonymous">
+    </script>
+
   </head>
   <body class="animate__animated animate__fadeIn">
-    <header class="l-header">
-      <h1>Home</h1>
+
+
+    <header>
+
+      <input type="checkbox" id="menu-checkbox" />
+            <label for="menu-checkbox" class="hamburger-icon">
+            <i class="fas fa-bars"></i></label>
+
+      <img src="/images/Logo mobile.png" alt="Logo" class="logo">
+      <img src="/images/Logo desktop.png" alt="Logo" class="logo-d">
+
+      <nav class="nav">
+        <ul class="nav-list">
+            <li class="list-item"><a href="index.html" class="nav-link active">Home</a></li>
+            <li class="list-item"><a href="allposts.html" class="nav-link">All posts</a></li>
+            <li class="list-item"><a href="about.html" class="nav-link">About Us</a></li>
+            <li class="list-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <a class="sign-up" href="#">Sign Up</a></div>
+    <a class="login" href="#">Login</a></div>
+
     </header>
 
     <main class="l-main">
-      <section role="search"></section>
+      
 
-      <article role="doc-introduction">
-        <h2>List</h2>
-
-        <img
-          src="/placeholder.jpg"
-          loading="lazy"
-          alt="…"
-          class="u-img hero-image"
-          width="1024"
-          height="1024"
-        />
-
-        <p>_REPLACE_INTRODUCTION_</p>
-      </article>
-
-      <section role="list">
-        <div id="js-list-container">_LOADING_INDICATOR_GOES_HERE_</div>
+      <section class="main main-home">
+        <h1 class="main-title">Welcome to The Vegan Vision, your go-to destination for all things vegan!</h1>
       </section>
+
+      <section class="blogs-home">
+        <p>Blogs</p>
+
+        
+      </section>
+
+    <section role="search"></section>
+
+    <section class="filter-btns">
+      <a href="#" class="latest-btn">Latest</a>
+      <a href="#" class="recipes-btn">Recipes</a>
+      <a href="#" class="tips-btn">Tips</a>
+    </section>
+
+    <section class="carousel-container" aria-label="Newest Photos">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+        <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+        <a href="blogpost.html">
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src="/images/carousel-slide1.jpg" alt="First blog on carousel slider">
+          </li>
+          <li class="slide">
+            <img src="/images/carousel-slide2.jpg" alt="Second blog on carousel slider">
+          </li>
+          <li class="slide">
+            <img src="/images/carousel-slide3.jpg" alt="Third blog on carousel slider">
+          </li>
+        </ul>
+        </a>
+      </div>
+    </section>
+
+    <section class="latest-posts">
+      <div class="img-container">
+
+        <a href="#">
+      <div class="blog-m">
+        <img  src="/images/vibrantfruits-mobile.jpg" alt="Blogpost about adding more fruit to your diet" >
+      </div>
+        </a>
+
+        <a  href="#">
+      <div class="blog-m">
+        <img src="/images/coconut-curry-mobile.jpg" alt="Blogpost about a spicy coconut curry recipe">
+      </div>
+        </a>
+
+        <a href="#">
+      <div class="blog-m">
+        <img src="/images/letilcurry-mobile.jpg" alt="Blogpost about a spicy coconut curry recipe">
+      </div>
+        </a>
+
+
+      </div>
+    </section>
     </main>
 
     <footer class="l-footer">
-      <small>Created with ❤️ by _REPLACE_</small>
+      <section id="bottom">
+        <a href="#" class="back-to-top-btn">Back To The Top</a>
+    </section>
+    
+        <div class="brandname">
+        
+
+            <nav class="footer-nav">
+                <ul class="nav-list-footer">
+                    <li class="list-item-footer"><a href="about.html" class="nav-link-footer">About Us</a></li>
+                    <li class="list-item-footer"><a href="contact.html" class="nav-link-footer">Contact Us</a></li>
+                    <li class="list-item-footer"><a href="#" class="nav-link-footer">Order Status</a></li>
+                    <li class="list-item-footer"><a href="#" class="nav-link-footer">Payment Options</a></li>
+                    
+                </ul>
+            </nav>
+            <nav class="footer-nav-2">
+              <ul class="nav-list-footer">
+                  <li class="list-item-footer"><a href="#" class="nav-link-footer">Community</a></li>
+                  <li class="list-item-footer"><a href="#" class="nav-link-footer">Help Center</a></li>
+                  <li class="list-item-footer"><a href="#" class="nav-link-footer">Support</a></li>
+                  <li class="list-item-footer"><a href="#" class="nav-link-footer">Terms Of Service</a></li>
+              </ul>
+          </nav>
+        </div>
+
+    <p class="copyright">All Rights Reserved &copy; 2022</p>
+      <small>Created with ❤️ by Herman</small>
     </footer>
+    <script src="carousel.js"></script>
   </body>
 </html>
